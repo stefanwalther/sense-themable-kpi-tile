@@ -1,0 +1,12 @@
+{
+  "qlikstyle": {
+    "name": "Qlik Style",
+    "tileBackgroundColor": "#91C526",
+    "titleColor": "#fff"
+  },
+  "lufthansa": {
+    "name": "Lufthansa KPI",
+    "tileBackgroundColor": "#FFB304",
+    "titleColor": "#fff"
+  }
+}

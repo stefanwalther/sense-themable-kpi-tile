@@ -1,0 +1,9 @@
+{
+	"name" : "Colored KPI Tile",
+	"description" : "KPI Tile with the ability to customize the background color, etc.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "coloredkpitile.png",
+	"author": "Stefan Walther"
+}
