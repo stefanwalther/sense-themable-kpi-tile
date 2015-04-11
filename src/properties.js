@@ -28,6 +28,13 @@ define( [
 		expression: "optional"
 	};
 
+	var kpiComparisonSuffix = {
+		ref: "props.kpiComparisonSuffix",
+		label: "KPI comparison suffix",
+		type: "string",
+		expression: "optional"
+	};
+
 	// ****************************************************************************************
 	// General Layout Settings
 	// ****************************************************************************************
@@ -71,7 +78,7 @@ define( [
 		options: options,
 		defaultValue: "default",
 		show: function ( data ) {
-			return data.props.layoutMode === 'template';
+			return data.props && data.props.layoutMode && data.props.layoutMode === 'template';
 		}
 
 	};
@@ -86,7 +93,7 @@ define( [
 		type: "string",
 		expression: "optional",
 		show: function ( data ) {
-			return data.props.layoutMode === 'custom';
+			return data.props && data.props.layoutMode === 'custom';
 		}
 	};
 
@@ -96,7 +103,7 @@ define( [
 		type: "string",
 		expression: "optional",
 		show: function ( data ) {
-			return data.props.layoutMode === 'custom';
+			return data.props && data.props.layoutMode === 'custom';
 		}
 	};
 
@@ -106,7 +113,7 @@ define( [
 		type: "string",
 		expression: "optional",
 		show: function ( data ) {
-			return data.props.layoutMode === 'custom';
+			return data.props && data.props.layoutMode === 'custom';
 		}
 
 	};
@@ -117,7 +124,7 @@ define( [
 		type: "string",
 		expression: "optional",
 		show: function ( data ) {
-			return data.props.layoutMode === 'custom';
+			return data.props && data.props.layoutMode === 'custom';
 		}
 
 	};
@@ -128,7 +135,7 @@ define( [
 		type: "string",
 		expression: "optional",
 		show: function ( data ) {
-			return data.props.layoutMode === 'custom';
+			return data.props && data.props.layoutMode === 'custom';
 		}
 	};
 
@@ -136,22 +143,22 @@ define( [
 	// Property Panel Definition
 	// ****************************************************************************************
 
-	// Appearance Panel
-	var appearancePanel = {
-		uses: "settings",
+	// Return values
+	return {
+		type: "items",
+		component: "accordion",
 		items: {
 			data: {
-				type: "items",
 				label: "Data",
 				items: {
 					kpiTitle: kpiTitle,
 					kpi: kpi,
-					kpiComparison: kpiComparison
+					kpiComparison: kpiComparison,
+					kpiComparisonSuffix: kpiComparisonSuffix
 				}
 			},
-			layout: {
-				type: "items",
-				label: "Layout",
+			appearance: {
+				label: "Appearance",
 				items: {
 					layoutMode: layoutMode,
 					layoutTemplate: layoutTemplate,
@@ -161,17 +168,6 @@ define( [
 					comparisonColor: comparisonColor
 				}
 			}
-
-		}
-	};
-
-	// Return values
-	return {
-		type: "items",
-		component: "accordion",
-		items: {
-			appearance: appearancePanel
-
 		}
 	};
 

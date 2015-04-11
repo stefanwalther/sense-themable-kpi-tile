@@ -1,11 +1,11 @@
 {
   "generator-qsextension": {
     "advancedMode": true,
-    "extensionName": "Colored KPI Tile",
-    "extensionNameSafe": "ColoredKPITile",
+    "extensionName": "Themable KPI Tile",
+    "extensionNameSafe": "ThemableKPITile",
     "extensionType": "extension",
     "extensionNamespace": "swr-",
-    "extensionDescription": "KPI Tile with the ability to customize the background color, etc.",
+    "extensionDescription": "KPI Tile with the ability to use themes and customize background-color, etc.",
     "authorName": "Stefan Walther",
     "lessSupport": true,
     "license": "mit",

@@ -5,8 +5,14 @@
     "titleColor": "#fff"
   },
   "lufthansa": {
-    "name": "Lufthansa KPI",
+    "name": "Orange",
     "tileBackgroundColor": "#FFB304",
-    "titleColor": "#fff"
+    "titleColor": "#fff",
+    "comparisonPositiveColor": "#006600",
+    "comparisonNegativeColor": "#CC0000",
+    "comparisonNeutralColor": "#333",
+    "comparisonPositiveIcon": "&#9650;",
+    "comparisonNegativeIcon": "&#9660;",
+    "comparisonNeutralIcon": "&#9654;"
   }
 }

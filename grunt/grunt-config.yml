@@ -6,16 +6,16 @@ general:
   LocalExtensionPath:   "d:\\Documents\\Qlik\\Sense\\Extensions"
 
   # Name of the Extension as defined in the generator
-  ExtensionName:        "Colored KPI Tile"
+  ExtensionName:        "Themable KPI Tile"
 
   # Name of the Extension, safe to be used for file-names
-  ExtensionNameSafe:    "ColoredKPITile"
+  ExtensionNameSafe:    "ThemableKPITile"
 
   # Namespace
   ExtensionNamespace:   "swr-"
 
   # Description of the Extension as defined in the generator
-  ExtensionDescription: "KPI Tile with the ability to customize the background color, etc."
+  ExtensionDescription: "KPI Tile with the ability to use themes and customize background-color, etc."
 
   # Version of the extension, will be re-used in several areas,
   # e.g the generated .zip-file in the 'release' Grunt-task
