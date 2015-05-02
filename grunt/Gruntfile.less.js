@@ -22,27 +22,27 @@ module.exports = function ( grunt ) {
 				dest: "../dist_dev"
 			}]
 		},
-		dev: {
-			options: {
-				compress: ('<%= projectconfig.dev.less.lessCompress%>' === 'true'),
-				yuicompress: ('<%= projectconfig.dev.less.lessYuiCompress%>' === 'true'),
-				optimization: parseInt( 'projectconfig.dev.less.lessOptimization' ),
-				cleancss: ('<%= projectconfig.dev.less.lessCleanCss%>' === 'true')
-			},
-			files: {
-				"../dist_dev/lib/css/style.css": "../src/lib/less/_root.less"
-			}
-		},
-		release: {
-			options: {
-				compress: ('<%= projectconfig.release.less.lessCompress%>' === 'true'),
-				yuicompress: ('<%= projectconfig.release.less.lessYuiCompress%>' === 'true'),
-				optimization: parseInt( 'projectconfig.release.less.lessOptimization' ),
-				cleancss: ('<%= projectconfig.release.less.lessCleanCss%>' === 'true')
-			},
-			files: {
-				"../dist/lib/css/style.css": "../src/lib/less/_root.less"
-			}
-		}
+        dev: {
+            options: {
+                compress: '<%= projectconfig.dev.less.lessCompress%>',
+                yuicompress: '<%= projectconfig.dev.less.lessYuiCompress%>',
+                optimization: parseInt( 'projectconfig.dev.less.lessOptimization' ),
+                cleancss: '<%= projectconfig.dev.less.lessCleanCss%>'
+            },
+            files: {
+                "../dist_dev/lib/css/style.css": "../src/lib/less/_root.less"
+            }
+        },
+        release: {
+            options: {
+                compress: '<%= projectconfig.release.less.lessCompress%>',
+                yuicompress: '<%= projectconfig.release.less.lessYuiCompress%>',
+                optimization: parseInt( 'projectconfig.release.less.lessOptimization' ),
+                cleancss: '<%= projectconfig.release.less.lessCleanCss%>'
+            },
+            files: {
+                "../dist/lib/css/style.css": "../src/lib/less/_root.less"
+            }
+        }
 	};
 };

@@ -1,26 +1,26 @@
 <div qv-extension
-	 class="qv-object-swr-themablekpitile"
-	 ng-style="tileStyle">
+     class="qv-object-swr-themablekpitile"
+     ng-style="tileStyle">
 
-	<div class="container">
-		<div class="colored-kpi-title"
-			 ng-title="layout.props.kpiTitle"
-			 ng-bind="layout.props.kpiTitle"
-			 ng-style="titleStyle"></div>
+    <div class="kpicontainer">
+        <div class="colored-kpi-title"
+             ng-title="layout.props.kpiTitle"
+             ng-bind="layout.props.kpiTitle"
+             ng-style="titleStyle"></div>
 
-		<div class="colored-kpi"
-			 ng-bind="layout.props.kpi"
-			 ng-title="layout.props.kpi"
-			 ng-style="kpiStyle"></div>
+        <div class="colored-kpi"
+             ng-bind="layout.props.kpi"
+             ng-title="layout.props.kpi"
+             ng-style="kpiStyle"></div>
 
-		<div class="colored-kpi-comparison"
-			 ng-style="kpiComparison">
-			<span class="icon" ng-bind-html="kpiIcon"></span>
+        <div class="colored-kpi-comparison"
+             ng-style="kpiComparison">
+            <span class="icon" ng-bind-html="kpiIcon"></span>
 			<span class="text"
-				  ng-bind="layout.props.kpiComparison"
-					></span>
-			<span class="text" ng-bind="layout.props.kpiComparisonSuffix"></span>
-		</div>
-	</div>
+                  ng-bind="layout.props.kpiComparison"
+                ></span>
+            <span class="text" ng-bind="layout.props.kpiComparisonSuffix"></span>
+        </div>
+    </div>
 
 </div>
