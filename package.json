@@ -1,18 +1,18 @@
 {
   "name": "sense-themable-kpi-tile",
   "description": "KPI Tile for Qlik Sense with the ability to use themes or to customize background color, comparison indicator, etc.",
-  "version": "0.2.1",
-  "homepage": "https://github.com/stefanwalther/qsThemableKpiTile",
+  "version": "0.2.2",
+  "homepage": "https://github.com/stefanwalther/sense-themable-kpi-tile",
   "author": {
     "name": "Stefan Walther",
     "url": "http://qliksite.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stefanwalther/qsThemableKpiTile.git"
+    "url": "git://github.com/stefanwalther/sense-themable-kpi-tile.git"
   },
   "bugs": {
-    "url": "https://github.com/stefanwalther/qsThemableKpiTile/issues"
+    "url": "https://github.com/stefanwalther/sense-themable-kpi-tile/issues"
   },
   "license": {
     "type": "MIT",
