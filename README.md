@@ -37,7 +37,7 @@ For every _Themable KPI Tile_ the following options can be set:
 * **`KPI comparison (numeric value)`** - The numeric value which is relevant to render the positive, negative or neutral color & icon defined in the template.
 * **`KPI comparison (displayed value)`** - Put the formatted comparison value here (use e.g. Qlik's `num` method).
 
-[![](docs/images/props_data.png)](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/deploy-extensions.htm)
+[![](docs/images/props_Data.png)](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/deploy-extensions.htm)
 
 ### Appearance - Layout
 
@@ -65,7 +65,7 @@ In case of choosing "Custom Layout" the following settings can be used:
 * **`KPI Color`** - Any valid [hex color](http://www.w3schools.com/tags/ref_colorpicker.asp)
 * **`Comparison Color`** - Any valid [hex color](http://www.w3schools.com/tags/ref_colorpicker.asp)
 
-[![](docs/images/props_appearance.png)](http://www.w3schools.com/tags/ref_colorpicker.asp)
+[![](docs/images/props_Appearance.png)](http://www.w3schools.com/tags/ref_colorpicker.asp)
 
 ## Contributing
 
