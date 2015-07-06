@@ -1,0 +1,10 @@
+v0.2.0:
+  date: "2015-07-06"
+  enhancements:
+    - Added documentation
+    - "Some minor fixes & improvements"
+    - "Removed 'KPI comparison suffix' in favor of a generic 'KPI comparison label'"
+v0.1.0:
+  date: "2015-04-10"
+  new:
+    - "Initial version"
