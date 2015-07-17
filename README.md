@@ -4,6 +4,8 @@
 
 > KPI Tile for Qlik Sense with the ability to use themes or to customize background color, comparison indicator, etc.
 
+***
+
 <!-- toc -->
 
 * [Purpose and Description](#purpose-and-description)
