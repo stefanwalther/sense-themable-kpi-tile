@@ -1,4 +1,4 @@
-# sense-themable-kpi-tile
+# Themable KPI Tile for Qlik Sense
 
 > KPI Tile for Qlik Sense with the ability to use themes or to customize background color, comparison indicator, etc.
 
