@@ -6,6 +6,8 @@
 
 ***
 
+## Table of Contents
+
 <!-- toc -->
 
 * [Purpose and Description](#purpose-and-description)
