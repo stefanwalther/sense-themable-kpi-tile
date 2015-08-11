@@ -1,3 +1,7 @@
+v0.2.3:
+  date: "2015-08-11"
+  enhancements:
+    - Moved over to sense-go
 v0.2.2:
   date: "2015-07-06"
   enhancements:
