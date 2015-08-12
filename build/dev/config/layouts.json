@@ -1,0 +1,35 @@
+{
+  "default": {
+    "name": "Default",
+    "tileBackgroundColor": "#F8F8F8",
+    "titleColor": "#333333",
+    "comparisonPositiveColor": "#006600",
+    "comparisonNegativeColor": "#CC0000",
+    "comparisonNeutralColor": "#333333",
+    "comparisonPositiveIcon": "&#9650;",
+    "comparisonNegativeIcon": "&#9660;",
+    "comparisonNeutralIcon": "&#9654;"
+  },
+  "green": {
+    "name": "Green",
+    "tileBackgroundColor": "#91C526",
+    "titleColor": "#fff",
+    "comparisonPositiveColor": "#006600",
+    "comparisonNegativeColor": "#CC0000",
+    "comparisonNeutralColor": "#333",
+    "comparisonPositiveIcon": "&#9650;",
+    "comparisonNegativeIcon": "&#9660;",
+    "comparisonNeutralIcon": "&#9654;"
+  },
+  "orange": {
+    "name": "Orange",
+    "tileBackgroundColor": "#FFB304",
+    "titleColor": "#fff",
+    "comparisonPositiveColor": "#006600",
+    "comparisonNegativeColor": "#CC0000",
+    "comparisonNeutralColor": "#333",
+    "comparisonPositiveIcon": "&#9650;",
+    "comparisonNegativeIcon": "&#9660;",
+    "comparisonNeutralIcon": "&#9654;"
+  }
+}
