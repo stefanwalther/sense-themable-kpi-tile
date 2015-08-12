@@ -1,7 +1,7 @@
 {
   "name": "sense-themable-kpi-tile",
   "description": "KPI Tile for Qlik Sense with the ability to use themes or to customize background color, comparison indicator, etc.",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "author": {
     "name": "Stefan Walther",
     "url": "http://qliksite.io"
@@ -30,5 +30,11 @@
     "sense-go": "^0.5.1",
     "verb": "verbose/verb"
   },
-  "keywords": []
+  "keywords": [
+    "qlik",
+    "qlik-sense",
+    "sense",
+    "visualization",
+    "kpi"
+  ]
 }
