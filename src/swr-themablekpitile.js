@@ -4,7 +4,7 @@ define( [
         './properties',
         './lib/js/extensionUtils',
         'text!./lib/partials/template.ng.html',
-        'text!./lib/css/style.css',
+        'text!./lib/css/main.css',
         'text!./config/layouts.json'
     ],
     function ( $, _, props, extensionUtils, ngTemplate, cssContent, layoutsText ) {

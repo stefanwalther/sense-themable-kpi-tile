@@ -1,4 +1,5 @@
 config/layouts.json;
+lib/css/main.css;
 lib/css/style.css;
 lib/js/extensionUtils.js;
 lib/partials/template.ng.html;
