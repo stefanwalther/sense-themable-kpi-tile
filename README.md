@@ -1,5 +1,7 @@
 # Themable KPI Tile for Qlik Sense
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/sense-themable-kpi-tile.svg)](https://greenkeeper.io/)
+
 > KPI Tile for Qlik Sense with the ability to use themes or to customize background color, comparison indicator, etc.
 
 ***
