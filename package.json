@@ -23,7 +23,7 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
-    "sense-go": "^0.5.1",
+    "sense-go": "^0.12.2",
     "verb": "verbose/verb"
   },
   "keywords": [
